@@ -2,6 +2,9 @@ import { Flex, Icon, Input } from "@chakra-ui/react";
 import { RiSearchLine } from "react-icons/ri";
 
 export function SearchBox() {
+  // Uncontrolled components => Ref (imperativo)
+  // debounce => only when stops typing
+
   return (
     <Flex
       as="label"
